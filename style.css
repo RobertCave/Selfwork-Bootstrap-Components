@@ -1,0 +1,38 @@
+/* 
+Css Personalizzato.
+Non conoscendo ancora benissimo Bootstrap probabilmente qualche 
+
+*/
+
+.carousel-caption h4{
+    background-color: darkolivegreen;
+    margin: 10px;
+}
+
+.bg-image {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    background-color: darkolivegreen;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.col {
+    margin-bottom: 40px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: darkolivegreen;
+}
+
+@media (max-width: 768px) {
+    .bg-image {
+        height: 50vh;
+    }
+}
+
+.accordion-body {
+    min-height: 200px;
+}
